@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.openthinks.libs</groupId>
-	<artifactId>websocket</artifactId>
+	<artifactId>openlibs.websocket</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
@@ -44,8 +44,8 @@
 		</dependency>
 		<dependency>
 			<groupId>com.openthinks.libs</groupId>
-			<artifactId>utilities</artifactId>
-			<version>1.2</version>
+			<artifactId>openlibs.utilities</artifactId>
+			<version>1.2.1</version>
 		</dependency>
 		<!-- websocket package -->
 		<dependency>
@@ -116,9 +116,9 @@
 					</execution>
 				</executions>
 			</plugin>
-			<!-- <plugin> <groupId>org.sonatype.plugins</groupId> <artifactId>nexus-staging-maven-plugin</artifactId> 
-				<version>1.6.7</version> <extensions>true</extensions> <configuration> <serverId>ossrh</serverId> 
-				<nexusUrl>https://oss.sonatype.org/</nexusUrl> <autoReleaseAfterClose>true</autoReleaseAfterClose> 
+			<!-- <plugin> <groupId>org.sonatype.plugins</groupId> <artifactId>nexus-staging-maven-plugin</artifactId>
+				<version>1.6.7</version> <extensions>true</extensions> <configuration> <serverId>ossrh</serverId>
+				<nexusUrl>https://oss.sonatype.org/</nexusUrl> <autoReleaseAfterClose>true</autoReleaseAfterClose>
 				</configuration> </plugin> -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
